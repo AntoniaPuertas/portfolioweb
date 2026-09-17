@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#jw {
+    font-size: 200%;
+    font-weight: bolder;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 8px 8px 17px -5px rgba(0,0,0,0.67);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bolder;
+    color: darkgreen;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav a:hover{
+    color: rgb(4, 30, 4);
+    transform: scale(1.2);
+}
+
+#julia {
+    width: 100%;
+    height: 80vh;
+    /* background-image: url("../imagenes/fondo.webp"); */
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../imagenes/fondo.webp");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
